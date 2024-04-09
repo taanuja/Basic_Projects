@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusERP</title>
+</head>
+<body>
+    <div class="loading" align="center">
+    <img src="" alt=""/>
+    </div>
+    <div>
+        <div class="row">
+            <div class="center-img">
+                <img src="DPUlogo.png" class="img-responsive"
+                style="width: 165px; height: 80px; margin-bottom: -10px"/>
+                <span class="text-center" style="margin-top: 1px;">
+                <h4 style="color: maroon;" class="align-center">Dr. D. Y. Patil School of Science & Technology</h4>
+                </span>
+            </div>
+            <h4>Campus<b>ERP</b> Login</h4>
+            <div>
+                <select name="" id="">
+                    <option value="Faculty">Faculty</option>
+                    <option value="Student">Student</option>
+                    <option value="Parent">Parent</option>
+                </select>
+            </div>
+            <div>
+                <input name="txtUserName" type="text" placeholder="ERPID"/>
+            </div>
+            <div class="form-group has-feedback">
+                <input name="txtPassword" type="password" placeholder="Password"/>
+            </div>
+            <div>
+                <div class="form-group" style="width: 80%; float: left">
+                <input name="txtCaptchaCode" type="text" maxlength="3" placeholder="Enter Captcha Code"/>
+                </div>
+                <div style="float: left; margin-left: 5px;">
+                <img id="imgcaptcha" src="https://sst.dpuerp.in/Captcha.aspx" style="height:32px;"/>
+                </div>
+            </div>
+            <br/>
+            <div>
+                <input id="chkRemember" type="checkbox" name="chkRemember"/><label for="chkRemember"> Remember Me</label>
+                <input type="submit" name="btnResetPass" value="Reset Password"
+                style="color:Blue;background-color:Transparent;border-color:Transparent;"/>
+            </div>
+            <div>
+            <br/>
+                <input type="hidden" name="hdEmailID" id="hdEmailID"/>
+                <div class="text-center">
+                    <input type="submit" name="btnLogin" value="Login" style="background-color:#9A2827;border: none"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+    <div>Yes, please</div>
+    <div>Cancel</div>
+    </div>
 
+</body>
+</html>
